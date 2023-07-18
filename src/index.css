@@ -202,3 +202,110 @@
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
 }
+
+
+
+
+
+/* below code is for resume download button  */
+
+button {
+
+  font-family: "Roboto", sans-serif;
+
+ &:hover {
+   transform: scale(1.06);
+   animation-duration: 0.s;
+ }
+
+ &:focus {
+   outline: none !important;
+ }
+
+ &:active {
+   transform: scale(0.99);
+ }
+}
+
+.check-svg {
+ animation: svgScale 0.5s ease-in-out;
+}
+.download-arrow {
+ transition: transform 0.2s linear;
+}
+button:hover .download-arrow {
+ transform: translate(0, 3px);
+}
+
+@keyframes svgScale {
+ 0% {
+   transform: scale(0);
+ }
+
+ 50% {
+   transform: scale(1.2);
+ }
+}
+
+.download-loader {
+ width: 16px;
+ height: 16px;
+ border: 2px solid transparent;
+ border-top-color: #ffffff;
+ border-radius: 50%;
+ opacity: 0;
+ animation: button-loading-spinner 1s ease 3;
+}
+@keyframes button-loading-spinner {
+ from {
+   transform: rotate(0turn);
+   opacity: 1;
+ }
+
+ to {
+   transform: rotate(1turn);
+   opacity: 0;
+ }
+}
+.button-copy {
+ padding-top: 2px;
+}
+@media (max-width: 375px) {
+ button.copy-button {
+   min-width: 300px;
+ }
+}
+
+
+
+
+/*  css property for slider and slider button    */
+
+.swiper {
+  padding: 2rem;
+}
+.swiper .res-slide {
+  @media (min-width: 950px){
+    width: 150px;
+    height: 150px;
+    border: 2px solid hsl(210, 100%, 50%);
+    border-radius: 20px;
+  }
+}
+   
+.button-up,
+.button-down {
+  transition: all 0.3s linear;
+} 
+
+.button-down:hover {
+  transform: translate3d(10px, 0, 0);
+}
+
+.button-up:hover {
+  transform: translate3d(-10px, 0, 0);
+}
+ 
+ 
+
+ 

@@ -13,6 +13,10 @@ import {
   nodejs,
   mongodb,
   git,
+
+  studynotion,
+  busbooking,
+  cafe2,
   carrent,
   jobit,
   dev,
@@ -41,6 +45,10 @@ export const navLinks = [
 
 const services = [
   {
+    title: "Competitive Programmer",
+    icon: creator,
+  },
+  {
     title: "Web Developer",
     icon: web,
   },
@@ -51,10 +59,6 @@ const services = [
   {
     title: "Backend Developer",
     icon: backend,
-  },
-  {
-    title: "Competitive Programmer",
-    icon: creator,
   },
 ];
 
@@ -99,6 +103,88 @@ const technologies = [
 
 const projects = [
   {
+    name: "Study-Notion",
+    description:
+      "StudyNotion is a fully functional ed-tech learning platform that enables users to create, consume, and rate educational content. Users can sign up and log in to the platform using their email addresses and password. The platform also supports OTP verification and forgot password functionality.. It uses Cloudinary, a cloud-based media management service, to store and manage all media content" ,
+    tags: [
+      {
+        name: "ReactJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NodeJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "ExpressJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: studynotion,
+    source_code_link: "https://github.com/abhikant12/Study-Notion.git",
+  },
+
+  {
+    name: "Bus Booking System",
+    description:
+      "It is a fully functional bus reservation system developed using Tkinter (GUI), SQLite, and Python, This reservation system has three modules. First module helps the customer to enquire the availability of seats in a particular bus at particular date. Second module helps him to reserve a ticket. Using third module he can cancel a reserved ticket. It manages all the information about Bus, Customers, Seats. The Project is totally built at administrator end",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tkinter (GUI)",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SQLite",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: busbooking,
+    source_code_link: "https://github.com/abhikant12/Bus-booking-.git",
+  },
+
+  {
+    name: "Cafe Management System",
+    description:
+      "An user interactive Website based on MERN stack. Functionality to add, edit and delete food item, customize and place order, update status of order. and Added interactive dashboard for both buyer and seller, statistics page for seller to analyze the sale",
+      tags: [
+        {
+          name: "ReactJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "NodeJS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "ExpressJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TailwindCSS",
+          color: "orange-text-gradient",
+        },
+      ],
+    image: cafe2,
+    source_code_link: "https://github.com/abhikant12",
+  },
+
+  {
     name: "Shopping Cart",
     description:
       "Shopping Cart Front-end design using React/Redux.It is website contain multiple items on its Home page and we can add them into the our cart.In cart we can see our selected items and also total items with total amount. It is fully responsive and Designing is done using Tailwind CSS",
@@ -112,34 +198,14 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "TailwindCSS",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/armaansingh24/Shopping-Cart",
+    source_code_link: "https://github.com/abhikant12/Web-D/tree/main/React/project/Shopping%20cart%20app",
   },
-  {
-    name: "Password Generator",
-    description:
-      "Password Generator is website which generates a random password. we can also copy the password on our clipboard and paste wherever we want. It generates the password based on the selection given by the user. It also tells the strength of the password generated.",
-    tags: [
-      {
-        name: "HTLM",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/armaansingh24/Password-Generator",
-  },
+
   {
     name: "Weather App",
     description:
@@ -159,8 +225,9 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/armaansingh24/weather-app",
+    source_code_link: "https://github.com/abhikant12/Web-D/tree/main/Javascript/project/mini%20-%20project/weather_web",
   },
+
   {
     name: "Dev Detective",
     description:
@@ -180,8 +247,9 @@ const projects = [
       },
     ],
     image: dev,
-    source_code_link: "https://github.com/armaansingh24/Dev-Detective",
+    source_code_link: "https://github.com/abhikant12/Web-D/tree/main/Javascript/project/mini%20-%20project/github%20profile%20viewer%20web",
   },
+
 ];
 
 export { services, technologies, projects };

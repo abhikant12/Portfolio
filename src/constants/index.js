@@ -133,6 +133,37 @@ const projects = [
   },
 
   {
+    name: "Virtual-Study-Room",
+    description:
+      "A fully functional ed-tech platform enabling remote collaboration for students. Features include video/voice calls, collaborative whiteboards, screen sharing, and real-time chatting." ,
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NodeJS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Socket.IO",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "WebRTC",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: p1,
+    source_code_link: "https://github.com/abhikant12/Virtual-Study-Room.git",
+  },
+
+
+  {
     name: "Bus Booking System",
     description:
       "It is a fully functional bus reservation system developed using Tkinter (GUI), SQLite, and Python, This reservation system has three modules. First module helps the customer to enquire the availability of seats in a particular bus at particular date. Second module helps him to reserve a ticket. Using third module he can cancel a reserved ticket. It manages all the information about Bus, Customers, Seats. The Project is totally built at administrator end",
@@ -204,28 +235,6 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/abhikant12/Web-D/tree/main/React/project/Shopping%20cart%20app",
-  },
-
-  {
-    name: "Weather App",
-    description:
-      "Weather App is a website which tells about the weather of current location of user as well as user can also search the city for which user wants to find out the weather.",
-    tags: [
-      {
-        name: "HTLM",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/abhikant12/Web-D/tree/main/Javascript/project/mini%20-%20project/weather_web",
   },
 
   {
